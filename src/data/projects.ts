@@ -8,6 +8,11 @@ import pfa2 from "@/assets/projects/pfa2.png"
 import pfa3 from "@/assets/projects/pfa3.png"
 import pfa4 from "@/assets/projects/pfa4.png"
 import tuteeTutorImg from "@/assets/projects/tuteetutor.svg";
+import tuteetutor1 from "@/assets/projects/tuteeTutor1.png"
+import tuteetutor2 from "@/assets/projects/tuteeTutor2.png"
+import tuteetutor3 from "@/assets/projects/tuteeTutor3.png"
+import tuteetutor4 from "@/assets/projects/tuteeTutor4.png"
+import tuteetutor5 from "@/assets/projects/tuteeTutor5.png"
 import careerBoostImg from "@/assets/projects/careerboost.png";
 import careerboost1 from "@/assets/projects/careerboost1.png"
 import careerboost2 from "@/assets/projects/careerboost2.png"
@@ -138,7 +143,7 @@ export const projects: ProjectDetail[] = [
     github: "https://github.com/lahariSane/tuteetutor-react",
     live: "https://tuteetutor-react-2.vercel.app/login",
     coverImage: tuteeTutorImg,
-    gallery: ["tuteeDashboard", "classroomStream", "assignmentView"],
+    gallery: [tuteetutor1, tuteetutor2, tuteetutor3, tuteetutor4, tuteetutor5],
     highlights: [
       "Architected a secure 4-role access system (Student, Faculty, HOD, Admin) with granular permission controls.",
       "Implemented a digital attendance tracking module, reducing manual paperwork and enabling real-time status updates.",

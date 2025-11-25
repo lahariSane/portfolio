@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="tuteetutor-gradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6D4CFF" />
+      <stop offset="100%" stop-color="#B28CFF" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#tuteetutor-gradient)" rx="32" />
+  <path d="M160 140h480v32H160zM220 210h360v32H220zM280 280h240v32H280z" fill="#ffffff" opacity="0.12" />
+  <text x="50%" y="50%" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="38" fill="#ffffff" text-anchor="middle">
+    TuteeTutor
+  </text>
+</svg>

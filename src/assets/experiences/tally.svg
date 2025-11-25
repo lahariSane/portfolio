@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="tally-gradient" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#684BFF" />
+      <stop offset="100%" stop-color="#C08FFF" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" rx="32" fill="url(#tally-gradient)" />
+  <g fill="none" stroke="#ffffff" stroke-width="16" opacity="0.18">
+    <rect x="200" y="140" width="160" height="180" rx="24" />
+    <rect x="440" y="160" width="160" height="140" rx="24" />
+    <path d="M260 200h80M260 240h80M500 200h80M500 240h80" stroke-linecap="round" />
+  </g>
+  <text x="50%" y="50%" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="40" fill="#ffffff" text-anchor="middle">
+    Tally Solutions
+  </text>
+</svg>

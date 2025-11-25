@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="typeface-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5B4CFF" />
+      <stop offset="100%" stop-color="#A57CFF" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" rx="32" fill="url(#typeface-gradient)" />
+  <g fill="none" stroke="#ffffff" stroke-width="18" opacity="0.2">
+    <path d="M220 320V120h140M220 220h116" stroke-linecap="round" />
+    <circle cx="520" cy="200" r="90" />
+    <path d="M480 280h160" stroke-linecap="round" />
+  </g>
+  <text x="50%" y="50%" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="42" fill="#ffffff" text-anchor="middle">
+    Typeface Internship
+  </text>
+</svg>

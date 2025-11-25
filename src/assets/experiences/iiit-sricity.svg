@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="iiit-gradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5538FF" />
+      <stop offset="100%" stop-color="#9A7CFF" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" rx="32" fill="url(#iiit-gradient)" />
+  <g fill="none" stroke="#ffffff" stroke-width="14" opacity="0.2">
+    <path d="M180 310l70-170 70 170" stroke-linejoin="round" />
+    <path d="M230 280h40" stroke-linecap="round" />
+    <rect x="420" y="160" width="220" height="160" rx="24" />
+    <path d="M460 200h140M460 240h140" stroke-linecap="round" />
+  </g>
+  <text x="50%" y="50%" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="36" fill="#ffffff" text-anchor="middle">
+    IIIT Sricity Research
+  </text>
+</svg>

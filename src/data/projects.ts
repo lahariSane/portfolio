@@ -8,7 +8,7 @@ import pfa2 from "@/assets/projects/pfa2.png"
 import pfa3 from "@/assets/projects/pfa3.png"
 import pfa4 from "@/assets/projects/pfa4.png"
 import tuteeTutorImg from "@/assets/projects/tuteetutor.svg";
-import tuteetutor1 from "@/assets/projects/tuteetutor1.png"
+import tuteetutor1 from "@/assets/projects/tuteetutor.png"
 import tuteetutor2 from "@/assets/projects/tuteetutor2.png"
 import tuteetutor3 from "@/assets/projects/tuteetutor3.png"
 import tuteetutor4 from "@/assets/projects/tuteetutor4.png"

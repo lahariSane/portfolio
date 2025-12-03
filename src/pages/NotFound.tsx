@@ -1,7 +1,5 @@
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import SEO from "@/components/seo";
-import { SITE_URL } from "@/config/siteMeta";
 
 const NotFound = () => {
   const location = useLocation();
@@ -15,12 +13,6 @@ const NotFound = () => {
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-gray-100">
-      <SEO
-        title="404 - Page Not Found"
-        description="The page you were looking for does not exist. Return home to keep exploring Lahari Sane's portfolio."
-        keywords={["404", "Page not found", "Portfolio error"]}
-        url={`${SITE_URL}/404`}
-      />
       <div className="text-center">
         <h1 className="mb-4 text-4xl font-bold">404</h1>
         <p className="mb-4 text-xl text-gray-600">Oops! Page not found</p>

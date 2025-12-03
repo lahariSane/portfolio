@@ -12,8 +12,6 @@ import {
   DetailGallery,
 } from "@/components/detail/DetailLayout";
 import { getProjectBySlug, getOtherProjects, projects as projectsData } from "@/data/projects";
-import SEO from "@/components/seo";
-import { SITE_NAME, SITE_URL } from "@/config/siteMeta";
 
 const ProjectDetail = () => {
   const { slug = "" } = useParams<{ slug: string }>();
@@ -27,8 +25,6 @@ const ProjectDetail = () => {
   if (!project) {
     return <Navigate to="/" replace />;
   }
-
-  const projectUrl = `${SITE_URL}/projects/${project.slug}`;
 
   return (
     <DetailPageContainer
@@ -65,12 +61,6 @@ const ProjectDetail = () => {
         </div>
       }
     >
-      <SEO
-        title={`${project.title} — ${SITE_NAME}`}
-        description={project.summary}
-        keywords={[project.title, ...project.tech, "Lahari Sane projects", "Portfolio"]}
-        url={projectUrl}
-      />
       <DetailLayout
         coverImage={project.coverImage}
         coverAlt={`${project.title} preview`}

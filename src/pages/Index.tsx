@@ -10,28 +10,10 @@ import Achievements from "@/components/Achievements";
 import TechStack from "@/components/TechStack";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import SEO from "@/components/seo";
-import {
-  DEFAULT_DESCRIPTION,
-  DEFAULT_KEYWORDS,
-  SITE_NAME,
-  SITE_URL,
-} from "@/config/siteMeta";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <SEO
-        title={SITE_NAME}
-        description={DEFAULT_DESCRIPTION}
-        keywords={[
-          ...DEFAULT_KEYWORDS,
-          "Portfolio",
-          "Hero Section",
-          "Projects Showcase",
-        ]}
-        url={SITE_URL}
-      />
       <Navbar />
       <Hero />
       <About />

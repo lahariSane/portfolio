@@ -31,24 +31,6 @@ const ProjectDetail = () => {
   }
 
   return (
-    <>
-      <Helmet>
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-Y267BGYVRP"
-        ></script>
-        <script
-          // Set GA config via Helmet to keep scripts in document head.
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-Y267BGYVRP');
-            `,
-          }}
-        />
-      </Helmet>
       <DetailPageContainer
         relatedTitle="Explore Other Projects"
         relatedLink={{ to: "/#projects", label: "View all" }}
@@ -186,7 +168,6 @@ const ProjectDetail = () => {
           </DetailSection>
         </DetailLayout>
       </DetailPageContainer>
-    </>
   );
 };
 

@@ -10,28 +10,9 @@ import Achievements from "@/components/Achievements";
 import TechStack from "@/components/TechStack";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import { Helmet } from "react-helmet-async";
 
 const Index = () => {
   return (
-    <>
-      <Helmet>
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-Y267BGYVRP"
-        ></script>
-        <script
-          // Set GA config via Helmet to keep scripts in document head.
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-Y267BGYVRP');
-            `,
-          }}
-        />
-      </Helmet>
       <div className="min-h-screen">
         <Navbar />
         <Hero />
@@ -46,7 +27,6 @@ const Index = () => {
         <Contact />
         <Footer />
       </div>
-    </>
   );
 };
 

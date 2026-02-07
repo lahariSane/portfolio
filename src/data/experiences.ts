@@ -13,14 +13,14 @@ export const experiences: Experience[] = [
     slug: "typeface",
     company: "Typeface",
     role: "Software Engineering Intern",
-    period: "Jan 2026 - Jun 2026",
-    location: "Hyderabad (Upcoming)",
+    period: "Jan 2026 - Present",
+    location: "Hyderabad",
     summary:
-      "Incoming software engineering intern focusing on intelligent content creation experiences across the Typeface platform.",
+      "Software engineering intern working on Agent Studio, specifically the Agent Builder used to configure and debug custom AI agents.",
     responsibilities: [
-      "Selected to join the Growth Engineering squad to help redefine AI-guided campaign builders.",
-      "Will collaborate with product designers to prototype and validate new real-time collaboration primitives.",
-      "Tasked with instrumenting product funnels to uncover and resolve adoption friction points.",
+      "Working on stabilizing a new version of the Agent Builder by resolving compatibility and debug issues related to Pydantic-based execution outputs.",
+      "Improving builder architecture and node behavior (loop, tool, if-else) to enhance reliability and reduce dependency coupling.",
+      "Adding validations, test coverage across multiple environments, and contributing to frontend and backend features such as cursor-based pagination.",
     ],
   },
   {
